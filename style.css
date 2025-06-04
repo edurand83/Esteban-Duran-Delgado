@@ -1,0 +1,77 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #FDF6F0;
+  color: #3B3B3B;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: #FFE5D4;
+}
+
+.logo {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2rem;
+  color: #A26769;
+}
+
+nav a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #A26769;
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.portrait {
+  width: 200px;
+  border-radius: 1rem;
+}
+
+.intro h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.5rem;
+  color: #D88C6D;
+}
+
+.about, .projects, .contact {
+  padding: 2rem;
+}
+
+.projects .grid {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.card {
+  flex: 1;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 0.5rem;
+}
+
+footer {
+  background-color: #FFE5D4;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
